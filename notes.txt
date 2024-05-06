@@ -1,0 +1,42 @@
+Compile code using Java Compiler
+ .java files
+
+ javac (Compiler)
+
+ .class file created (Machine independent) Machine independent because of JVM (Java Virtual Machine) 
+ .class file is bytecode
+ JVM is JIT = Just in time Compiler
+
+Reason for Public : main function is public so that the javac the java Compiler can access the function(main)
+
+Reason for static: Compiler will create a single copy of main and all objects will refer only the one copy created
+
+It is not compulsory to name class and file same : it is to avoid confusion
+
+name of file for eg code.java and main method is present in class called hello then hello.class file is created
+
+String arguments in main creates objects internally to print the statements on the console
+
+from where does the program execution starts: the program execution starts from static block then main method 
+if static block is not present the program execution starts from main method
+
+camel case :    'g'et'D'ata's'tudent'O'f'm'it standard naming scheme for methods
+
+
+cannot implement multiple inheritance directly but using interfaces in Java
+
+inheritance using "extend" keyword
+
+overloading is Compile time
+overriding is Run time
+
+method overloading:
+    sum(1, 3)
+    sum(1, 3, 5)
+method overriding:
+    by default it checks immediate method to access
+    to access specific method in Java "super" keyword is used through constructor
+
+When using sc.nextInt(); a newline character is created after a number is entered for input. Now, if a String input is required next and you use sc.nextLine(); the program will take the new line character as input. and then you can use nextLine() method again to take input
+Best solution is to use sc.next(); which ignores the new-line character.
+
